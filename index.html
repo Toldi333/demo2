@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" #>
+</head>
+
+<body>
+    <div class="doboz-1">   
+        <h1>HTML Pizzéria</h1>
+        <p style="font-size: 20px;">Válaszd ki és rendel meg a neked megfelelő pizzát!</p>
+        
+        <hr>
+
+        <p>Átmérő:</p>
+        <p><input type="radio" name="méret" id="28cm" value="28 cm">
+            <label for="28cm">28 cm</label><br>
+        <input type="radio" name="méret" id="32cm" value="32 cm" checked>
+            <label for="32cm">32 cm</label><br>
+        <input type="radio" name="méret" id="40cm" value="40 cm" disabled>
+            <label for="40cm">40 cm</label><br></p>
+        <p>40 cm-es pizzáink átmenetileg nem elérhetőek!</p>
+        
+        <hr>
+        
+        <p><label for="tészták">Válassz tésztát:</label>
+        
+        <select name="tészták" id="tészták">
+          <option value="normál">Normál</option>
+          <option value="vékony">Vékony</option>
+          <option value="vastag">Vastag</option>
+          </select></p>
+        
+        <hr>
+        
+            <p>Plusz feltét:</p> 
+            <p><input type="checkbox" name="feltét" id="mozzarella" value="Mozzarella">
+               <label for="mozzarella">Mozzarella</label><br>
+            <input type="checkbox" name="feltét" id="pármai sonka" value="Pármai sonka">
+              <label for="pármai sonka">Pármai sonka</label><br>
+            <input type="checkbox" name="feltét" id="rukkola" value="Rukkola">
+              <label for="rukkola">Rukkola</label></p>
+
+        <hr>
+          
+            <p>Rendelés: </p>
+            <p><label for="név">Név</label>
+            <input type="text" name="név1" id="név" value=""></p>
+            <p><label for="telefonszám">Telefonszám</label>
+            <input type="text" name="telefon1" id="telefonszám" value=""></p>
+            <p><textarea id="megjegyzes" name="megjegyzes" placeholder="Megjegyzés" style="height:100px"></textarea></p>
+        
+        <p><input type="button" name="küldés" id="küldés" value="Küldés"> <input type="button" name="reset" id="reset" value="Reset"></p>
+    
+        
+
+
+    </div>
+</body>
+
+</html>

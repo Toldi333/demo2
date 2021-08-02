@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+
+}
+
+p {text-align: center;}
+
+body {
+    color:rgb(199, 255, 221);
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+    margin: 5;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.doboz-1 {
+    width: 400px;
+    height: 600px;
+    margin:auto;
+}
